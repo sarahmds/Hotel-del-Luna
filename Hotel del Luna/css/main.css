@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header, footer{
+    background-color: #DA9AB6;
+    padding: 2em;
+}
+header > div, footer > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: white;
+}
+nav{
+    text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 1em;
+    margin: 0 1em;
+}
+nav ol li{
+    background-color: #DA9AB6;
+    box-shadow: black 1px 3px 3px;
+}
