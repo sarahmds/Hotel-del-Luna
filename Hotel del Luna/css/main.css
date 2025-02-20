@@ -17,8 +17,9 @@ header > div, footer{
     justify-content: space-between;
     align-items: center;
 }
-a{
+header a{
     color: white;
+    text-decoration: none;
 }
 nav{
     text-align: center;
@@ -48,4 +49,18 @@ h2{
 main{
     margin: 0 auto;
     width: 80em;
+}
+div.carousel{
+   width: 32em;
+   margin: 0 auto;
+   padding: 0;
+}
+div.carousel-inner{
+    padding: 0;
+}
+div.carousel-item{
+    padding: 0;
+}
+main img.estrelas{
+    padding: 2em 0;
 }

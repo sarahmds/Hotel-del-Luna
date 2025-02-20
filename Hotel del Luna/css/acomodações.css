@@ -11,7 +11,7 @@ main > div{
 main div img{
     margin: 0 1em 0 0;
 }
-main div div{
+main div section{
     background-color: #DAA99A;
     padding: 2em;
     height: 370px;
