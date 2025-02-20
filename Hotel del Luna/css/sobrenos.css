@@ -1,0 +1,37 @@
+h3{
+    font-size: 2em;
+    margin: 0 0 2em 0;
+}
+main div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0 0 0;
+
+}
+main div div{
+    flex-wrap: wrap;
+}
+main div.par{
+   flex-direction: row-reverse;
+}
+main div.par img{
+    margin: 0 2em 0 0;
+}
+main div.impar img{
+    margin: 0 0 0 2em;
+}
+main p{
+    font-size: 1.5em;
+    line-height: 2.5em;
+}
+main a{
+    color: black;
+}
+main > p{
+    text-align: center;
+}
+main section > p{
+    text-align: right;
+    margin: 0 0 2em 0;
+}

@@ -1,0 +1,27 @@
+main section{
+    padding: 2em 0;
+}
+h3{
+    font-size: 2em;
+    margin: 0 0 0.5em 0;
+}
+main section p{
+    font-size: 1.25em;
+}
+textarea{
+    width: 100%;
+    height: 8em;
+    padding: 0.5em;
+}
+main input{
+    background-color: #DAA99A;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    width: 16em;
+    font-size: 1.25em;
+    margin-left: 48em;
+}
+main form{
+    padding: 2em 0;
+}

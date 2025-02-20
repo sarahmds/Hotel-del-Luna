@@ -1,0 +1,28 @@
+h3{
+    font-size: 2em;
+}
+main > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+
+}
+main div img{
+    margin: 0 1em 0 0;
+}
+main div div{
+    background-color: #DAA99A;
+    padding: 2em;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main p.preco{
+    text-align: right;
+}
+main p{
+    font-size: 1.25em;
+    line-height: 1.25;
+}

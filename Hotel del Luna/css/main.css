@@ -3,12 +3,16 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 header, footer{
     background-color: #DA9AB6;
     padding: 2em;
 }
-header > div, footer > div{
+header{
+    padding: 2em 2em 0 2em;
+}
+header > div, footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,4 +31,21 @@ li{
 nav ol li{
     background-color: #DA9AB6;
     box-shadow: black 1px 3px 3px;
+    font-size: 1.25em;
+    width: 192px;
+    font-weight: 900;
+}
+main > img{
+    display: block;
+    margin: 0 auto;
+}
+h2{
+    background-color: #DAA99A;
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+}
+main{
+    margin: 0 auto;
+    width: 80em;
 }
