@@ -13,7 +13,7 @@ textarea{
     height: 8em;
     padding: 0.5em;
 }
-main input{
+main input[type="submit"]{
     background-color: #DAA99A;
     color: white;
     border: none;
@@ -24,4 +24,12 @@ main input{
 }
 main form{
     padding: 2em 0;
+}
+
+main input[type="text"]{
+    width: 100%;
+    border: none;
+    background-color: #DAA99A;
+    padding: 1em;
+    color: white;
 }
