@@ -5,9 +5,15 @@
     text-decoration: none;
     font-family: 'Trebuchet MS', sans-serif;
 }
+#menu{
+    display: none;
+    border: none;
+    background: transparent;
+}
 header, footer{
     background-color: #DA9AB6;
     padding: 2em;
+    width: 100vw;
 }
 header{
     padding: 2em 2em 0 2em;
@@ -23,6 +29,7 @@ header a{
 }
 nav{
     text-align: center;
+    display: block;
 }
 li{
     display: inline-block;
@@ -45,6 +52,7 @@ h2{
     text-align: center;
     padding: 0.5em;
     color: white;
+    width: 100vw;
 }
 main{
     margin: 0 auto;
@@ -64,4 +72,7 @@ div.carousel-item{
 }
 main img.estrelas{
     padding: 2em 0;
+}
+header div ul{
+    display: block;
 }

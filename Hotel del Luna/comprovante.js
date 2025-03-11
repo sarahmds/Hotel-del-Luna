@@ -40,5 +40,3 @@ if (document.querySelector("main h2")) {
         document.getElementById("observacoes").textContent = observacao || '[Sem Observações]'; 
     };
 }
-
-
